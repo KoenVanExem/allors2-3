@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="core\" />
+    <Folder Include="custom\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\system\workspace\csharp\allors.workspace.meta\allors.workspace.meta.csproj" />
+  </ItemGroup>
+</Project>
